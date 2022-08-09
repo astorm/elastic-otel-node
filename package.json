@@ -1,0 +1,22 @@
+{
+  "name": "test-express-otel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^1.0.0",
+    "@opentelemetry/sdk-trace-node": "^1.0.0",
+    "@opentelemetry/sdk-trace-base": "^1.0.0",
+    "@opentelemetry/exporter-otlp-grpc": "^0.26.0",
+    "@opentelemetry/exporter-otlp-http": "^0.26.0",
+    "@opentelemetry/instrumentation-http": "^0.26.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
+}
